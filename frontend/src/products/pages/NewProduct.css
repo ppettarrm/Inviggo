@@ -1,0 +1,103 @@
+.place-form {
+  display: inline-block;
+  margin-left: 30%;
+  list-style: none;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  background-color: #292929;
+  color: rgb(202, 197, 197);
+}
+
+.nproduct-name {
+  padding: 1rem;
+  background-color: #292929;
+  margin: 1rem;
+}
+
+.nproduct-name label {
+  margin-right: 1rem;
+  background-color: #292929;
+}
+
+.nproduct-name input{
+    display: inline-block;
+    width: 70%;
+}
+
+.nproduct-image {
+    padding: 1rem;
+    background-color: #292929;
+    margin: 1rem;
+  }
+  
+  .nproduct-image label {
+    margin-right: 1rem;
+    background-color: #292929;
+  }
+
+  .nproduct-image input{
+    display: inline-block;
+    width: 70%;
+}
+
+  .nproduct-category {
+    padding: 1rem;
+    background-color: #292929;
+    margin: 1rem;
+  }
+  
+  .nproduct-category label {
+    margin-right: 1rem;
+    background-color: #292929;
+  }
+
+  .nproduct-category input{
+    display: inline-block;
+    width: 66.5%;
+}
+
+  .nproduct-city {
+    padding: 1rem;
+    background-color: #292929;
+    margin: 1rem;
+  }
+  
+  .nproduct-city label {
+    margin-right: 1rem;
+    background-color: #292929;
+  }
+
+  .nproduct-city input{
+    display: inline-block;
+    width: 82%;
+}
+
+  .nproduct-description {
+    padding: 1rem;
+    background-color: #292929;
+    margin: 1rem;
+  }
+  
+  .nproduct-description label {
+    margin-right: 1rem;
+    background-color: #292929;
+  }
+
+  .nproduct-name textarea{
+    display: block;
+}
+
+  .nproduct-date {
+    padding: 1rem;
+    background-color: #292929;
+    margin: 1rem;
+    color: rgb(202, 197, 197);
+  }
+  
+  .nproduct-date label {
+    margin-right: 1rem;
+    background-color: #292929;
+  }

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 
+import { AuthContext } from "../../shared/context/auth-context";
 import Button from "../../shared/components/FormElements/Button";
 import "./ProductItem.css";
 
 const ProductItem = (props) => {
+  const auth = useContext(AuthContext);
   return (
     <li>
       <Link to={`/products/${props.id}`}>
@@ -17,10 +19,10 @@ const ProductItem = (props) => {
             <h3 className="product-item__price">{props.price}</h3>
             <h3 className="product-item__city">{props.city}</h3>
             <h3 className="product-item__category">{props.category}</h3>
-            <div className="product-item__buttons">
-              <Button inverse>EDIT</Button>
+            {auth.isLoggedIn && (<div className="product-item__buttons">
+              <Button inverse to={`/products/update/${props.id}`}>EDIT</Button>
               <Button danger>DELETE</Button>
-            </div>
+            </div>)}
           </div>
         </div>
       </Link>
