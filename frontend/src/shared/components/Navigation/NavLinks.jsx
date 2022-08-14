@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 import { AuthContext } from "../../context/auth-context";
 import "./NavLinks.css";
 
+
+
 const NavLinks = (props) => {
   const auth = useContext(AuthContext);
 
@@ -26,7 +28,7 @@ const NavLinks = (props) => {
       )}
       {auth.isLoggedIn && (
         <li>
-          <button onClick={auth.logout}>LOG OUT</button>
+          <button onClick={auth.logout} to='/'>LOG OUT</button>
         </li>
       )}
     </ul>
