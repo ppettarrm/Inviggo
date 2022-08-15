@@ -8,6 +8,8 @@ const signup = async (req, res, next) => {
   const date =
     date_ob.getDate() + "." + date_ob.getMonth() + "." + date_ob.getFullYear();
 
+    const { usernames, passwords, tels } = req.body;
+    console.log(usernames);
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return next(
