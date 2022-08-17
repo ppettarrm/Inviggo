@@ -1,0 +1,39 @@
+.mcard {
+  display: block;
+  margin-top: 5%;
+  background-color: #2c3333;
+}
+
+.mcard h4 {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+}
+
+.center {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+}
+
+.user-name {
+  padding: 1rem;
+  background-color: #292929;
+  margin: 1rem;
+}
+
+.user-name label {
+  margin-right: 1rem;
+  background-color: white;
+}
+
+.user-name input {
+  display: inline-block;
+  width: 70%;
+}

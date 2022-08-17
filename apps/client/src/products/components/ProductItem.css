@@ -1,0 +1,94 @@
+@media (min-width: 1300px) {
+  .card {
+    border: 1px solid #2b2323;
+    margin: 30px;
+    background-color: #292929;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .product-item {
+    margin: 1rem;
+    padding: 2rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+    display: flex;
+    background-color: #292929;
+    color: rgb(58, 141, 113);
+  }
+
+  .products-list button{
+    background-color: #292929;
+    width: 6rem;
+    height: 4rem;
+    border: 1px solid #be2222;
+    border-radius: 20%;
+    color: #be2222;
+  }
+
+  #delete-btn:hover{
+    background-color: #be2222;
+    color: white
+  }
+
+  #link{
+    background-color: #292929;
+  }
+
+
+  .product-item__image {
+    padding: 2rem;
+    background-color: #292929;
+  }
+
+  .product-item__image img{
+    width: 350px;
+    height: 350px;
+  }
+
+  .product-item__name {
+    padding: 2rem;
+    margin-top: 25%;
+    background-color: #292929;
+  }
+
+  .product-item__price {
+    padding: 2rem;
+    text-align: justify;
+    margin-top: 25%;
+    background-color: #292929;
+  }
+
+  .product-item__city {
+    padding: 2rem;
+    margin-top: 25%;
+    background-color: #292929;
+  }
+
+  .product-item__category {
+    padding: 2rem;
+    margin-top: 25%;
+    background-color: #292929;
+  }
+
+  .product-item__buttons {
+    display: inline-flex;
+    padding: 2rem;
+    margin-top: 25%;
+    background-color: #292929;
+  }
+
+  .button {
+    height: 40px;
+    width: auto;
+    margin: 5px;
+  }
+
+  .product-item:hover h2,
+  .product-item:active h2,
+  .product-item:hover h3,
+  .product-item:active h3 {
+    color: #2acec6;
+  }
+}
+
+
