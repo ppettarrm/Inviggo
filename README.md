@@ -5,7 +5,7 @@
 
 Uputstvo za pokretanje aplikacije (Srpski):
 
-1) Klonirajte moj git repozitorijum u željeni direktorijum.
+1) Klonirajte moj git repozitorijum u željeni direktorijum.                 
 1.1)
 ``` git clone https://github.com/ppettarrm/Inviggo```
 
@@ -17,7 +17,7 @@ Uputstvo za pokretanje aplikacije (Srpski):
 2.4) Između ...mongodb.net/ i ? stavite naziv kako želite da vam se zove database     
 2.5) Kopirajte URL 
 
-3) Otvorite projekat u nekom IDE
+3) Otvorite projekat u nekom IDE                            
 3.1) Idite u Inviggo/apps/server/app.js     
 3.2) Umesto linka koji je trenutno parametar funkcije connect, nalepite Vaš 
 URL koji ste prethodno kopirali             
