@@ -3,7 +3,7 @@
 
 ## Lokalno pokretanje
 
-Uputstvo za pokretanje aplikacije (Srpski):
+Uputstvo za pokretanje aplikacije:
 
 1) Klonirajte moj git repozitorijum u željeni direktorijum.                 
 1.1)
