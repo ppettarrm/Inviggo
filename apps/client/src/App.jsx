@@ -14,6 +14,7 @@ import ProductDetail from "./products/pages/ProductDetail";
 import UpdateProduct from "./products/pages/UpdateProduct";
 import { AuthContext } from "./shared/context/auth-context";
 
+let logoutTimer;
 
 const App = () => {
   const [token, setToken] = useState(null);
@@ -21,11 +22,13 @@ const App = () => {
   const [username, setUsername] = useState(null);
   const [date, setDate] = useState(null);
   const [tel, setTel] = useState(null);
+  const [tokenExpirationDate, setTokenExpirationDate] = useState(null);
 
-  const login = useCallback((props, expirationTime) => {
+  const login = useCallback((props, expirationDate) => {
     setToken(props.token);
-    const tokenExpirationTime =
-      expirationTime || new Date(new Date().getTime() + 1000 * 60 * 60);
+    const tokenExpirationDate =
+      expirationDate || new Date(new Date().getTime() + 1000*60*60);
+    setTokenExpirationDate(tokenExpirationDate);
     localStorage.setItem(
       "userData",
       JSON.stringify({
@@ -34,13 +37,23 @@ const App = () => {
         uname: props.uname,
         date: props.date,
         tel: props.tel,
-        expiration: tokenExpirationTime.toISOString(),
+        expiration: tokenExpirationDate.toISOString(),
       })
     );
     setUserId(props.uid);
     setUsername(props.uname);
     setDate(props.date);
     setTel(props.tel);
+  }, []);
+
+  const logout = useCallback(() => {
+    setToken(null);
+    setUserId(null);
+    setUsername(null);
+    setDate(null);
+    setTel(null);
+    setTokenExpirationDate(null);
+    localStorage.removeItem("userData");
   }, []);
 
   useEffect(() => {
@@ -57,18 +70,18 @@ const App = () => {
         date: storedData.date,
         tel: storedData.tel,
       };
-      login(data);
+      login(data, new Date(storedData.expiration));
     }
   }, [login]);
 
-  const logout = useCallback(() => {
-    setToken(null);
-    setUserId(null);
-    setUsername(null);
-    setDate(null);
-    setTel(null);
-    localStorage.removeItem("userData");
-  }, []);
+  useEffect(() => {
+    if (token && tokenExpirationDate) {
+      const remainingTime = tokenExpirationDate.getTime() - new Date().getTime();
+      logoutTimer = setTimeout(logout, remainingTime);
+    } else {
+      clearTimeout(logoutTimer);
+    }
+  }, [token, logout, tokenExpirationDate]);
 
   let routes;
   if (!!token) {

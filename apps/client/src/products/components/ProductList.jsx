@@ -100,6 +100,9 @@ const ProductList = (props) => {
         </div>
         <div></div>
       </div>
+      <div className="footer">
+        <h2>Konkursni zadatak Inviggo - Petar Maletin</h2>
+      </div>
     </React.Fragment>
   );
 };

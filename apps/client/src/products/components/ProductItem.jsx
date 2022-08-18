@@ -32,10 +32,11 @@ const ProductItem = (props) => {
     }
   };
 
-  const confirmDelete = () => {
+  const confirmDelete = (event) => {
     let confirmAction = confirm("Deleting product! Are you sure?");
     if (confirmAction) {
       deleteHandler();
+      event.preventDefault();
     }
   };
 

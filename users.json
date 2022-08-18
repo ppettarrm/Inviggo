@@ -1,0 +1,391 @@
+[{
+  "_id": {
+    "$oid": "62fd353add1e531c375311ea"
+  },
+  "username": "user1",
+  "password": "$2a$12$P4kba9jiZyDjDD/TSELUyeiUSvtRph1zBCAPA/hVqSpfyZSkPTbnW",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381659874571"
+  },
+  "products": [
+    {
+      "$oid": "62fd3593dd1e531c375311f1"
+    },
+    {
+      "$oid": "62fd35bcdd1e531c375311f8"
+    },
+    {
+      "$oid": "62fd366bdd1e531c3753120e"
+    },
+    {
+      "$oid": "62fd3698dd1e531c37531214"
+    },
+    {
+      "$oid": "62fd36badd1e531c3753121a"
+    },
+    {
+      "$oid": "62fd36d4dd1e531c37531220"
+    },
+    {
+      "$oid": "62fd3706dd1e531c37531226"
+    },
+    {
+      "$oid": "62fd372ddd1e531c3753122e"
+    },
+    {
+      "$oid": "62fd374bdd1e531c37531234"
+    },
+    {
+      "$oid": "62fd3777dd1e531c3753123a"
+    }
+  ],
+  "__v": 12
+},{
+  "_id": {
+    "$oid": "62fd37c5dd1e531c37531241"
+  },
+  "username": "user2",
+  "password": "$2a$12$CSDZoYtZpkL6N.a0nqQCr.cQsQFRd7FBGw6CqNakR0xW38kP1TE7.",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381678798766"
+  },
+  "products": [
+    {
+      "$oid": "62fd37e5dd1e531c37531248"
+    },
+    {
+      "$oid": "62fd380fdd1e531c3753124f"
+    },
+    {
+      "$oid": "62fd3832dd1e531c37531255"
+    },
+    {
+      "$oid": "62fd385cdd1e531c3753125b"
+    },
+    {
+      "$oid": "62fd387bdd1e531c37531261"
+    },
+    {
+      "$oid": "62fd389fdd1e531c37531267"
+    },
+    {
+      "$oid": "62fd38bfdd1e531c3753126d"
+    },
+    {
+      "$oid": "62fd38dcdd1e531c37531273"
+    },
+    {
+      "$oid": "62fd390ddd1e531c37531279"
+    },
+    {
+      "$oid": "62fd3950dd1e531c3753127f"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd39a6dd1e531c37531286"
+  },
+  "username": "user3",
+  "password": "$2a$12$aO.dEMg2kEfzwhQK2vGCyOgTL9jBx0TMCQ3SsSS4jkbCTOCIRbZt6",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381615467982"
+  },
+  "products": [
+    {
+      "$oid": "62fd39d6dd1e531c3753128d"
+    },
+    {
+      "$oid": "62fd3a0cdd1e531c37531294"
+    },
+    {
+      "$oid": "62fd3a3ddd1e531c3753129a"
+    },
+    {
+      "$oid": "62fd3a5cdd1e531c375312a0"
+    },
+    {
+      "$oid": "62fd3a7add1e531c375312a6"
+    },
+    {
+      "$oid": "62fd3a9cdd1e531c375312ac"
+    },
+    {
+      "$oid": "62fd3ac8dd1e531c375312b2"
+    },
+    {
+      "$oid": "62fd3ae7dd1e531c375312b8"
+    },
+    {
+      "$oid": "62fd3b09dd1e531c375312be"
+    },
+    {
+      "$oid": "62fd3b5cdd1e531c375312c6"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd3dbedd1e531c375312d1"
+  },
+  "username": "user4",
+  "password": "$2a$12$wZtlWOGHuP6mMCpuy.3tZeeAk3GJ5kPOYcneKw4bhqRb.YLUjpa5O",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381637691882"
+  },
+  "products": [
+    {
+      "$oid": "62fd3df7dd1e531c375312d8"
+    },
+    {
+      "$oid": "62fd3e15dd1e531c375312df"
+    },
+    {
+      "$oid": "62fd3e31dd1e531c375312e5"
+    },
+    {
+      "$oid": "62fd3e4cdd1e531c375312eb"
+    },
+    {
+      "$oid": "62fd3e55dd1e531c375312ef"
+    },
+    {
+      "$oid": "62fd3e83dd1e531c375312f5"
+    },
+    {
+      "$oid": "62fd3e9edd1e531c375312fb"
+    },
+    {
+      "$oid": "62fd3ebcdd1e531c37531301"
+    },
+    {
+      "$oid": "62fd3ed4dd1e531c37531307"
+    },
+    {
+      "$oid": "62fd3eeedd1e531c3753130d"
+    },
+    {
+      "$oid": "62fd3f66dd1e531c37531313"
+    }
+  ],
+  "__v": 11
+},{
+  "_id": {
+    "$oid": "62fd3faddd1e531c3753131b"
+  },
+  "username": "user5",
+  "password": "$2a$12$BbwgukGMaMo3wN0icT8B.eD01yiTqObUu18FSK8N0qapy4zi7Ktc.",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381627683912"
+  },
+  "products": [
+    {
+      "$oid": "62fd3fd4dd1e531c37531322"
+    },
+    {
+      "$oid": "62fd405add1e531c3753132b"
+    },
+    {
+      "$oid": "62fd40bcdd1e531c37531331"
+    },
+    {
+      "$oid": "62fd40f5dd1e531c37531337"
+    },
+    {
+      "$oid": "62fd4141dd1e531c3753133d"
+    },
+    {
+      "$oid": "62fd4177dd1e531c37531343"
+    },
+    {
+      "$oid": "62fd41d7dd1e531c3753134b"
+    },
+    {
+      "$oid": "62fd4228dd1e531c37531351"
+    },
+    {
+      "$oid": "62fd4264dd1e531c37531357"
+    },
+    {
+      "$oid": "62fd428edd1e531c3753135d"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd42fadd1e531c37531365"
+  },
+  "username": "user6",
+  "password": "$2a$12$Ab9YAnRsRpdgUDokFOpQxeOZpZ7Rg4Ulk.gHlNYb.znOwD9aNfDJu",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381679090990"
+  },
+  "products": [
+    {
+      "$oid": "62fd436fdd1e531c3753136c"
+    },
+    {
+      "$oid": "62fd43a9dd1e531c37531373"
+    },
+    {
+      "$oid": "62fd43eedd1e531c37531379"
+    },
+    {
+      "$oid": "62fd443ddd1e531c3753137f"
+    },
+    {
+      "$oid": "62fd4473dd1e531c37531385"
+    },
+    {
+      "$oid": "62fd44aedd1e531c3753138b"
+    },
+    {
+      "$oid": "62fd44dadd1e531c37531391"
+    },
+    {
+      "$oid": "62fd4510dd1e531c37531397"
+    },
+    {
+      "$oid": "62fd4549dd1e531c3753139d"
+    },
+    {
+      "$oid": "62fd457edd1e531c375313a3"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd469cdd1e531c375313ac"
+  },
+  "username": "user7",
+  "password": "$2a$12$zWZe3XxcG2Ul/2PEUlbWjet5BUxYG4i6.EPwea/eaYRdJgiGiKT1y",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381668798221"
+  },
+  "products": [
+    {
+      "$oid": "62fd4757dd1e531c375313b5"
+    },
+    {
+      "$oid": "62fd4778dd1e531c375313bc"
+    },
+    {
+      "$oid": "62fd4791dd1e531c375313c2"
+    },
+    {
+      "$oid": "62fd47abdd1e531c375313c8"
+    },
+    {
+      "$oid": "62fd47dfdd1e531c375313ce"
+    },
+    {
+      "$oid": "62fd47f9dd1e531c375313d4"
+    },
+    {
+      "$oid": "62fd4818dd1e531c375313da"
+    },
+    {
+      "$oid": "62fd4835dd1e531c375313e0"
+    },
+    {
+      "$oid": "62fd4858dd1e531c375313e6"
+    },
+    {
+      "$oid": "62fd487add1e531c375313ec"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd48c7dd1e531c3753155b"
+  },
+  "username": "user8",
+  "password": "$2a$12$cWIJNZM10AsdV6iJbL2rb.YiSuY0a8Ai5y0MOFIfvR7N6iFLpuB8.",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381647768829"
+  },
+  "products": [
+    {
+      "$oid": "62fd48e4dd1e531c37531562"
+    },
+    {
+      "$oid": "62fd4913dd1e531c37531569"
+    },
+    {
+      "$oid": "62fd492ddd1e531c3753156f"
+    },
+    {
+      "$oid": "62fd4948dd1e531c37531575"
+    },
+    {
+      "$oid": "62fd4963dd1e531c3753157b"
+    },
+    {
+      "$oid": "62fd497fdd1e531c37531581"
+    },
+    {
+      "$oid": "62fd4996dd1e531c3753158b"
+    },
+    {
+      "$oid": "62fd49abdd1e531c37531591"
+    },
+    {
+      "$oid": "62fd49c2dd1e531c37531597"
+    },
+    {
+      "$oid": "62fd49e0dd1e531c3753159d"
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "62fd49f3dd1e531c375315a2"
+  },
+  "username": "user9",
+  "password": "$2a$12$DB7HK7JKhpM5A7xQm4hfDOxZmjmXdHLhNzmO6DIEphvFv6yeEmoFy",
+  "date": "17.7.2022",
+  "tel": {
+    "$numberLong": "381613249506"
+  },
+  "products": [
+    {
+      "$oid": "62fd4a42dd1e531c375315d9"
+    },
+    {
+      "$oid": "62fd4a57dd1e531c375315e0"
+    },
+    {
+      "$oid": "62fd4a71dd1e531c375315e6"
+    },
+    {
+      "$oid": "62fd4a91dd1e531c375315ec"
+    },
+    {
+      "$oid": "62fd4aacdd1e531c375315f2"
+    },
+    {
+      "$oid": "62fd4ac2dd1e531c375315f8"
+    },
+    {
+      "$oid": "62fd4ad8dd1e531c375315fe"
+    },
+    {
+      "$oid": "62fd4aecdd1e531c37531604"
+    },
+    {
+      "$oid": "62fd4b09dd1e531c3753160a"
+    },
+    {
+      "$oid": "62fd4b27dd1e531c37531610"
+    }
+  ],
+  "__v": 10
+}]
